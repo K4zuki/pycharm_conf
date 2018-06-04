@@ -6,18 +6,4 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="git bash" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="C:\Program Files\Git\git-bash.exe" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
-  <tool name="pandocker" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="C:\Program Files\Git\git-bash.exe" />
-      <option name="PARAMETERS" value="c://Users/yamamoto/pandocker/pandocker.sh make all" />
-      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
-    </exec>
-  </tool>
 </toolSet>
