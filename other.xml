@@ -1,0 +1,29 @@
+<application>
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+  </component>
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
+  <component name="PyCodeInsightSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="true" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="C:\Program Files\Python36\python.exe" value="false" />
+        <entry key="C:\Users\kyamamot\AppData\Local\Programs\Python\Python36\python.exe" value="false" />
+        <entry key="P:\Python27\python.exe" value="true" />
+      </map>
+    </option>
+    <option name="SDK_TO_NOSETEST">
+      <map>
+        <entry key="C:\Program Files\Python36\python.exe" value="false" />
+        <entry key="C:\Users\kyamamot\AppData\Local\Programs\Python\Python36\python.exe" value="false" />
+        <entry key="P:\Python27\python.exe" value="false" />
+      </map>
+    </option>
+  </component>
+</application>
