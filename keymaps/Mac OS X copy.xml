@@ -60,7 +60,15 @@
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="meta f" />
+    <keyboard-shortcut first-keystroke="alt f3" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="MarkdownNavigator.ListUnIndent" />
+  <action id="MarkdownNavigator.ToggleSplitLayoutChange">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveLineDown">
@@ -73,6 +81,10 @@
   <action id="NextTab" />
   <action id="PreviousEditorTab" />
   <action id="PreviousTab" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="meta s" />
     <keyboard-shortcut first-keystroke="ctrl s" />
@@ -81,4 +93,6 @@
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
 </keymap>
