@@ -39,6 +39,11 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="meta divide" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="Editor Copy">
