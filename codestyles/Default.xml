@@ -9,6 +9,7 @@
     <option name="SMART_EDIT_UNDERSCORES" value="true" />
     <option name="SMART_EDIT_ASTERISKS" value="true" />
     <option name="SMART_EDIT_TILDES" value="true" />
+    <option name="SMART_EDIT_TABLES" value="true" />
     <option name="RIGHT_MARGIN" value="-1" />
   </MarkdownNavigatorCodeStyleSettings>
   <Python>
