@@ -6,10 +6,10 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pandocker-console" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="pandocker-console" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="C:\Program Files\Git\git-bash.exe" />
-      <option name="PARAMETERS" value="C:\Users\yamamoto\bin\pandocker.sh" />
+      <option name="COMMAND" value="bash" />
+      <option name="PARAMETERS" value="$USER_HOME$/bin/pandocker.sh" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
