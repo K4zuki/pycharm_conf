@@ -2,7 +2,8 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_components.*;_svn;rcs;" />
     <extensionMap>
-      <removed_mapping pattern="Makefile" type="Makefile" />
+      <removed_mapping pattern="GNUmakefile" type="Makefile" />
+      <removed_mapping pattern="makefile" type="Makefile" />
       <mapping pattern=".babelrc" type="PLAIN_TEXT" />
       <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping pattern="ACKNOWLEDGMENTS" type="PLAIN_TEXT" />
