@@ -11,6 +11,7 @@
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping ext="eps" type="PLAIN_TEXT" />
       <mapping ext="epf" type="PLAIN_TEXT" />
+      <mapping ext="xcf" type="PLAIN_TEXT" />
       <mapping ext="lbr" type="XML" />
       <mapping ext="sch" type="XML" />
       <mapping ext="brd" type="XML" />
