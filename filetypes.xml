@@ -10,6 +10,7 @@
       <mapping pattern="ACKNOWLEDGMENTS" type="PLAIN_TEXT" />
       <mapping ext="xcf" type="PLAIN_TEXT" />
       <mapping ext="epf" type="PLAIN_TEXT" />
+      <mapping ext="bob" type="PLAIN_TEXT" />
       <mapping ext="eps" type="PLAIN_TEXT" />
       <mapping ext="brd" type="XML" />
       <mapping ext="lbr" type="XML" />
