@@ -8,8 +8,8 @@
   </tool>
   <tool name="pandocker-console" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="docker" />
-      <option name="PARAMETERS" value=" run --rm -it k4zuki/pandocker " />
+      <option name="COMMAND" value="winpty" />
+      <option name="PARAMETERS" value="docker run --rm -it k4zuki/pandocker " />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
