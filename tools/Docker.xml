@@ -1,0 +1,9 @@
+<toolSet name="Docker">
+  <tool name="Pull image" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="wsl.exe" />
+      <option name="PARAMETERS" value="docker pull k4zuki/pandocker" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
