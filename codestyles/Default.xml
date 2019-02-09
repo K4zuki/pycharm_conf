@@ -1,7 +1,7 @@
 <code_scheme name="Default" version="173">
   <option name="LINE_SEPARATOR" value="&#13;&#10;" />
   <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
-  <option name="SOFT_MARGINS" value="120" />
+  <option name="SOFT_MARGINS" value="100,120" />
   <CsvCodeStyleSettings>
     <option name="TABULARIZE" value="false" />
   </CsvCodeStyleSettings>
