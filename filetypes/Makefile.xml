@@ -14,8 +14,6 @@
     <keywords2 keywords=".default_goal;.features;.include_dirs;.phony;.recipeprefix;.variables" />
   </highlighting>
   <extensionMap>
-    <mapping pattern="makefile" />
-    <mapping pattern="Makefile" />
     <mapping pattern="GNUmakefile" />
   </extensionMap>
 </filetype>
