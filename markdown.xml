@@ -1,5 +1,0 @@
-<application>
-  <component name="MarkdownApplicationSettings">
-    <MarkdownCssSettings StylesheetUri="file://$USER_HOME$/.pandoc/pandoc_misc/github_css/github.css" TextEnabled="true" StylesheetText="html, body {  &#10;  font-family: &quot;Source Han Sans&quot;, &quot;Source Sans Pro&quot;, &quot;Microsoft JhengHei&quot;, &quot;Roboto&quot;, &quot;Arial&quot;, &quot;Lucida Grande&quot;, sans-serif;&#10;}&#10;" />
-  </component>
-</application>

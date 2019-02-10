@@ -6,11 +6,4 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pandocker-console" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$USER_HOME$/bin/pandocker.sh" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
-    </exec>
-  </tool>
 </toolSet>
