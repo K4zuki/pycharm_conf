@@ -1,0 +1,9 @@
+<toolSet name="Pandocker-WSL">
+  <tool name="PDF" description="pandocker pdf" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="wsl.exe" />
+      <option name="PARAMETERS" value="/c/workspaces/pandocker/wsl/run.sh make pdf" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+  </tool>
+</toolSet>
