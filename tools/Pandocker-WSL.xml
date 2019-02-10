@@ -1,43 +1,36 @@
-<toolSet name="Pandocker">
+<toolSet name="Pandocker-WSL">
   <tool name="PDF" description="pandocker pdf" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="docker" />
-      <option name="PARAMETERS" value="run -v $ContentRoot$:/workdir k4zuki/pandocker make pdf" />
+      <option name="COMMAND" value="wsl.exe" />
+      <option name="PARAMETERS" value="/c/workspace/pandocker/wsl/run.sh make pdf" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
   <tool name="HTML" description="pandocker html" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="docker" />
-      <option name="PARAMETERS" value="run -v $ContentRoot$:/workdir k4zuki/pandocker make html" />
+      <option name="COMMAND" value="wsl.exe" />
+      <option name="PARAMETERS" value="/c/workspace/pandocker/wsl/run.sh make html" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
   <tool name="DOCX" description="pandocker docx" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="docker" />
-      <option name="PARAMETERS" value="run -v $ContentRoot$:/workdir k4zuki/pandocker make docx" />
+      <option name="COMMAND" value="wsl.exe" />
+      <option name="PARAMETERS" value="/c/workspace/pandocker/wsl/run.sh make docx" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
   <tool name="Clean" description="pandocker clean" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="docker " />
-      <option name="PARAMETERS" value="run -v $ContentRoot$:/workdir k4zuki/pandocker make clean" />
+      <option name="COMMAND" value="wsl.exe" />
+      <option name="PARAMETERS" value="/c/workspace/pandocker/wsl/run.sh make clean" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>
-  <tool name="Console" description="pandocker docx" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+  <tool name="InitDir" description="pandocker initdir" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="docker" />
-      <option name="PARAMETERS" value="run -i -v $ContentRoot$:/workdir k4zuki/pandocker" />
-      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
-    </exec>
-  </tool>
-  <tool name="INIT" description="pandocker clean" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="docker " />
-      <option name="PARAMETERS" value="run -v $ContentRoot$:/workdir k4zuki/pandocker init" />
+      <option name="COMMAND" value="wsl.exe" />
+      <option name="PARAMETERS" value="/c/workspace/pandocker/wsl/run.sh make initdir" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
   </tool>

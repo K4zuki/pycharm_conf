@@ -15,7 +15,5 @@
   </highlighting>
   <extensionMap>
     <mapping pattern="Makefile" />
-    <mapping pattern="makefile" />
-    <mapping pattern="GNUmakefile" />
   </extensionMap>
 </filetype>
