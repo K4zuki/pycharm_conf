@@ -1,0 +1,14 @@
+<code_scheme name="Default" version="173">
+  <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+  <CsvCodeStyleSettings>
+    <option name="TABULARIZE" value="false" />
+  </CsvCodeStyleSettings>
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="SMART_EDIT_TABLES" value="true" />
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
+  <Python>
+    <option name="OPTIMIZE_IMPORTS_SORT_IMPORTS" value="false" />
+    <option name="OPTIMIZE_IMPORTS_SORT_BY_TYPE_FIRST" value="false" />
+  </Python>
+</code_scheme>
