@@ -4,9 +4,6 @@
     <extensionMap>
       <mapping ext="tar" type="ARCHIVE" />
       <mapping ext="conf" type="Ini" />
-      <removed_mapping pattern="GNUmakefile" type="Makefile" />
-      <removed_mapping pattern="Makefile" type="Makefile" />
-      <removed_mapping pattern="makefile" type="Makefile" />
       <mapping pattern="MAINTAINERS" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="ACKNOWLEDGMENTS" type="PLAIN_TEXT" />
