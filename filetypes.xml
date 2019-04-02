@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_components.*;_svn;rcs;" />
     <extensionMap>
+      <removed_mapping ext="tar" type="7ZIP" />
       <mapping ext="tar" type="ARCHIVE" />
       <mapping ext="conf" type="Ini" />
       <removed_mapping pattern="GNUmakefile" type="Makefile" />
@@ -12,8 +13,8 @@
       <mapping pattern="ACKNOWLEDGMENTS" type="PLAIN_TEXT" />
       <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
-      <mapping ext="xcf" type="PLAIN_TEXT" />
       <mapping ext="bob" type="PLAIN_TEXT" />
+      <mapping ext="xcf" type="PLAIN_TEXT" />
       <mapping ext="epf" type="PLAIN_TEXT" />
       <mapping ext="eps" type="PLAIN_TEXT" />
       <mapping ext="brd" type="XML" />
