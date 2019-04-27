@@ -1,0 +1,6 @@
+<application>
+  <component name="CsvEditorSettings">
+    <option name="TABLE_COLUMN_HIGHTLIGHTING" value="false" />
+    <option name="QUOTING_ENFORCED" value="true" />
+  </component>
+</application>
