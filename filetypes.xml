@@ -5,6 +5,9 @@
       <removed_mapping ext="tar" approved="true" type="7ZIP" />
       <mapping pattern="ignore" type="Git exclude file" />
       <mapping ext="conf" type="Ini" />
+      <removed_mapping pattern="GNUmakefile" type="Makefile" />
+      <removed_mapping pattern="Makefile" type="Makefile" />
+      <removed_mapping pattern="makefile" type="Makefile" />
       <mapping pattern="MAINTAINERS" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="ACKNOWLEDGMENTS" type="PLAIN_TEXT" />
