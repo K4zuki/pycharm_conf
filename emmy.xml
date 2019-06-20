@@ -3,4 +3,11 @@
     <option name="luaCheck" value="" />
     <option name="luaCheckArgs" value="" />
   </component>
+  <component name="LuaSettings">
+    <option name="additionalSourcesRoot">
+      <array>
+        <option value="$USER_HOME$/workspace/pandoc/data" />
+      </array>
+    </option>
+  </component>
 </application>
