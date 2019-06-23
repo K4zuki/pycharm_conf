@@ -5,21 +5,21 @@
       <removed_mapping ext="tar" approved="true" type="7ZIP" />
       <mapping pattern="ignore" type="Git exclude file" />
       <mapping ext="conf" type="Ini" />
+      <mapping pattern="?akefile" type="Makefile" />
       <removed_mapping pattern="GNUmakefile" type="Makefile" />
-      <removed_mapping pattern="Makefile" type="Makefile" />
       <removed_mapping pattern="makefile" type="Makefile" />
       <mapping pattern="MAINTAINERS" type="PLAIN_TEXT" />
+      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="ACKNOWLEDGMENTS" type="PLAIN_TEXT" />
-      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping ext="tar" type="PLAIN_TEXT" />
-      <mapping ext="bob" type="PLAIN_TEXT" />
       <mapping ext="xcf" type="PLAIN_TEXT" />
       <mapping ext="epf" type="PLAIN_TEXT" />
       <mapping ext="eps" type="PLAIN_TEXT" />
+      <mapping ext="bob" type="PLAIN_TEXT" />
+      <mapping ext="lbr" type="XML" />
       <mapping ext="brd" type="XML" />
       <mapping ext="sch" type="XML" />
-      <mapping ext="lbr" type="XML" />
       <removed_mapping ext="lua" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="tar" approved="true" type="7ZIP" />
       <mapping ext="fnc" type="DBN-PSQL" />
