@@ -15,6 +15,7 @@
       <mapping ext="tar" type="PLAIN_TEXT" />
       <mapping ext="xcf" type="PLAIN_TEXT" />
       <mapping ext="epf" type="PLAIN_TEXT" />
+      <mapping ext="xdv" type="PLAIN_TEXT" />
       <mapping ext="eps" type="PLAIN_TEXT" />
       <mapping ext="bob" type="PLAIN_TEXT" />
       <mapping ext="lbr" type="XML" />
