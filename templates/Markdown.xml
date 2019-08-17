@@ -1,13 +1,23 @@
 <templateSet group="Markdown">
-  <template name=".pdiv" value=":::{$CLASS$}&#10;$END$&#10;:::" description="pandoc div" toReformat="false" toShortenFQNames="true">
+  <template name=".pandiv" value=":::{$CLASS$}&#10;$END$&#10;:::&#10;" description="pandoc div :::{.class} :::" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name=".wavedrom" value="[$LABEL$]($ADDRESS$){.wavedrom}$END$" description="Wavedrom" toReformat="false" toShortenFQNames="true">
+  <template name=".panwavedrom" value="[$LABEL$]($ADDRESS$){.wavedrom}$END$" description="Wavedrom link [](){.wavedrom}" toReformat="false" toShortenFQNames="true">
     <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ADDRESS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
+  <template name=".panrmnote" value="::: rmnote&#10;$END$&#10;:::&#10;" description="removable note ::: rmnote :::" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
+  <template name=".panlscape" value=":::LANDSCAPE&#10;$END$&#10;:::&#10;" description="Landscape ::: LANDSCAPE :::" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
