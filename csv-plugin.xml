@@ -1,8 +1,0 @@
-<application>
-  <component name="CsvEditorSettings">
-    <option name="TABLE_EDITOR_ROW_HEIGHT" value="10" />
-    <option name="TABLE_AUTO_COLUMN_WIDTH_ON_OPEN" value="true" />
-    <option name="TABLE_COLUMN_HIGHTLIGHTING" value="false" />
-    <option name="QUOTING_ENFORCED" value="true" />
-  </component>
-</application>

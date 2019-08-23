@@ -17,5 +17,6 @@
     <mapping pattern="makefile" />
     <mapping pattern="Makefile" />
     <mapping pattern="GNUmakefile" />
+    <mapping pattern="Makefile" />
   </extensionMap>
 </filetype>
