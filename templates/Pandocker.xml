@@ -42,4 +42,14 @@
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
+  <template name=".ohm" value="&amp;Omega;$END$" description="&amp;Omega;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
+  <template name=".micro" value="&amp;mu;$END$" description="&amp;mu;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
 </templateSet>
