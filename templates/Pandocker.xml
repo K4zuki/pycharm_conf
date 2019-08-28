@@ -52,4 +52,11 @@
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
+  <template name=".listingtable" value="[$LABEL$]($ADDRESS$){.listingtable}&#10;&#10;$END$" description="ListingTable [](){.listingtable}" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ADDRESS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
 </templateSet>
