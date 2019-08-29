@@ -5,17 +5,17 @@
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="d-rmnote" value="::: rmnote&#10;$END&#10;:::&#10;" description="Removable note ::: rmnote :::" toReformat="false" toShortenFQNames="true">
+  <template name="d.rmnote" value="::: rmnote&#10;$END&#10;:::&#10;" description="Removable note ::: rmnote :::" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="d-lscape" value="::: LANDSCAPE&#10;$END$&#10;:::&#10;" description="Landscape (TeX only) ::: LANDSCAPE :::" toReformat="false" toShortenFQNames="true">
+  <template name="d.lscape" value="::: LANDSCAPE&#10;$END$&#10;:::&#10;" description="Landscape (TeX only) ::: LANDSCAPE :::" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="d-table" value="::: {.table $ATTR$}&#10;$END$&#10;:::&#10;" description="Table attribute div ::: {.table} :::" toReformat="false" toShortenFQNames="true">
+  <template name="d.table" value="::: {.table $ATTR$}&#10;$END$&#10;:::&#10;" description="Table attribute div ::: {.table} :::" toReformat="false" toShortenFQNames="true">
     <variable name="ATTR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
@@ -59,49 +59,49 @@
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="r-fig" value="[@fig:$REFERENCE$]$END$" description="pandoc-crossref reference figure [@fig:]" toReformat="false" toShortenFQNames="true">
+  <template name="r.fig" value="[@fig:$REFERENCE$]$END$" description="pandoc-crossref reference figure [@fig:]" toReformat="false" toShortenFQNames="true">
     <variable name="REFERENCE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="l-fig" value="#fig:$REFERENCE$ $END$" description="pandoc-crossref figure anchor #fig:" toReformat="false" toShortenFQNames="true">
+  <template name="l.fig" value="#fig:$REFERENCE$ $END$" description="pandoc-crossref figure anchor #fig:" toReformat="false" toShortenFQNames="true">
     <variable name="REFERENCE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="r-sec" value="[@sec:$REFERENCE$]$END$" description="pandoc-crossref reference section [@sec:]" toReformat="false" toShortenFQNames="true">
+  <template name="r.sec" value="[@sec:$REFERENCE$]$END$" description="pandoc-crossref reference section [@sec:]" toReformat="false" toShortenFQNames="true">
     <variable name="REFERENCE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="l-sec" value="#sec:$REFERENCE$ $END$" description="pandoc-crossref section anchor #sec:" toReformat="false" toShortenFQNames="true">
+  <template name="l.sec" value="#sec:$REFERENCE$ $END$" description="pandoc-crossref section anchor #sec:" toReformat="false" toShortenFQNames="true">
     <variable name="REFERENCE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="r-tbl" value="[@tbl:$REFERENCE$]$END$" description="pandoc-crossref reference table [@tbl:]" toReformat="false" toShortenFQNames="true">
+  <template name="r.tbl" value="[@tbl:$REFERENCE$]$END$" description="pandoc-crossref reference table [@tbl:]" toReformat="false" toShortenFQNames="true">
     <variable name="REFERENCE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="r-lst" value="[@lst:$REFERENCE$]$END$" description="pandoc-crossref reference listing [@lst:]" toReformat="false" toShortenFQNames="true">
+  <template name="r.lst" value="[@lst:$REFERENCE$]$END$" description="pandoc-crossref reference listing [@lst:]" toReformat="false" toShortenFQNames="true">
     <variable name="REFERENCE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="l-tbl" value="#tbl:$REFERENCE$ $END$" description="pandoc-crossref table anchor #tbl:" toReformat="false" toShortenFQNames="true">
+  <template name="l.tbl" value="#tbl:$REFERENCE$ $END$" description="pandoc-crossref table anchor #tbl:" toReformat="false" toShortenFQNames="true">
     <variable name="REFERENCE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
-  <template name="l-lst" value="#lst:$REFERENCE$ $END$" description="pandoc-crossref listing anchor #lst:" toReformat="false" toShortenFQNames="true">
+  <template name="l.lst" value="#lst:$REFERENCE$ $END$" description="pandoc-crossref listing anchor #lst:" toReformat="false" toShortenFQNames="true">
     <variable name="REFERENCE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MARKDOWN" value="true" />
